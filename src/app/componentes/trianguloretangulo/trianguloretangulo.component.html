@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Área do triangulo Retângulo
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <h1>O Triangulo Retangulo</h1>
+  <ion-img src = "C:\Users\Aluno\Desktop\myApp\src\assets\imagens\triângulo-retangulo.jpg"></ion-img>
+  <p></p>
+  <br>
+  <ion-input [(ngModel)] = altura>Coloque a altura do trangulo retângulo</ion-input>
+  <ion-input [(ngModel)] = base>Coloque a base do trangulo retângulo</ion-input>
+  <ion-button (click) = "calcularArea(altura,base)"> Calcular a Área do triângulo! </ion-button>
+    {{ area }}
+</ion-content>
