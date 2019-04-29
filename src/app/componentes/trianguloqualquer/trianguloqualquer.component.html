@@ -1,0 +1,21 @@
+<ion-header>
+</ion-header>
+
+<ion-content>
+    <h1>Área de um triangulo qualquer</h1>
+  <br>
+    <p></p>
+  <br>
+   <ion-input [(ngModel)] = "base">Digite a base do triangulo aqui</ion-input>
+   <ion-input [(ngModel)] = "altura"> digite a altura do triangulo </ion-input>
+  <br>
+    <ion-button (click) = "calcularArea(base,altura)"> Calcular Area ! </ion-button>
+  <br>
+   <p>Resultado --> {{area}}</p>
+   <br>
+   <ion-button href = "home"> Voltar para a página inicial </ion-button> 
+
+</ion-content>
+
+<ion-footer>
+</ion-footer>
