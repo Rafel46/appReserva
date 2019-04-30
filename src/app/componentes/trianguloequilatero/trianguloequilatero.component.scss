@@ -4,3 +4,11 @@ p{
 h1{
   text-align: center;
 }
+ion-button{
+  --color : white;
+  --background : green;
+  --box-shadow : 10px 10px grey;
+}
+ion-input{
+  --placeholder-color : black;
+}

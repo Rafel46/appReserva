@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'trianguloR.component',
   templateUrl: 'trianguloretangulo.component.html',
-  StyleUrls: ['trianguloretangulo.component.scss'],
+  styleUrls: ['trianguloretangulo.component.scss'],
 })
 export class TrianguloRetanguloComponent{
   areaf : Number  = 0;

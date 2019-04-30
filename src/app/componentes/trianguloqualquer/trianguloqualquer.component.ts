@@ -1,8 +1,8 @@
 import  { Component } from '@angular/core';
 @Component({
   selector: 'trianguloQ.component',
-  StyleUrls: ['trianguloqualquer.component.scss'],
-  templateUrl : 'trianguloqualquer.component.html'
+  styleUrls: ['trianguloqualquer.component.scss'],
+  templateUrl : 'trianguloqualquer.component.html',
 })
 export class TrianguloQualquerComponent{
   area : Number = 0;

@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { ToastController } from '@ionic/angular';
 @Component({
-  Selector: 'trianguloE.component',
-  StyleUrls : ['trianguloequilatero.component.scss'],
+  selector: 'trianguloE.component',
+  styleUrls : ['trianguloequilatero.component.scss'],
   templateUrl: 'trianguloequilatero.component.html',
 })
 export class TrianguloEquilateroComponent{
@@ -10,8 +10,8 @@ export class TrianguloEquilateroComponent{
 
  async presentToast() {
    const toast = await this.toastController.create({
-     message: 'O resultado é'+this.areaR,
-     duration: 2000
+     message: 'O resultado é '+this.areaR,
+     duration: 4000
    });
    toast.present();
  }
